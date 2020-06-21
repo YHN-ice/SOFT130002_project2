@@ -1,0 +1,135 @@
+/*nav.css*/
+
+body {
+    background-image: url("../../images/background/search-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkslategrey;
+    background-position: center;
+}
+
+#filter {
+    text-align: center;
+    margin: 50px 21% 63px;
+    border-radius: 27px;
+    background-color: rgba(215, 215, 215, 0.55);
+    line-height: 120px;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 0px 0px 3px #000000;
+
+    box-shadow: 0px 0px 9px 5px #bfbfbf;
+}
+
+form > input[type="radio"] {
+    opacity: 0.76;
+    outline: none;
+    vertical-align: middle;
+}
+
+form > input[type="text"] {
+    opacity: 0.76;
+    outline: none;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.64);
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.72);
+
+
+    vertical-align: middle;
+
+    background-color: rgba(192, 192, 192, 0.6);
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0px 0px 3px 3px rgba(136, 136, 136, 0.4);
+}
+
+form > input[type="submit"] {
+    opacity: 0.76;
+    outline: none;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.64);
+    text-shadow: 0px 0px 3px #000000;
+
+
+    vertical-align: middle;
+
+    background-color: rgba(127, 255, 212, 0.5);
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0px 0px 1px 1px rgba(0, 255, 255, 0.39);
+}
+
+section {
+    margin: 9%;
+    padding: 7%;
+
+    border-radius: 120px;
+
+    background-color: rgba(173, 216, 230, 0.64);
+
+    box-shadow: 0px 0px 21px 15px aliceblue;
+}
+
+section > div {
+    margin-bottom: 9%;
+    padding: 3%;
+
+    background-color: rgba(211, 224, 224, 0.63);
+
+    border-radius: 54px;
+    box-shadow: 0px 0px 9px 5px rgba(95, 158, 160, 0.64);
+}
+
+section > div > a > img {
+    margin-right: 21px;
+    width: 221px;
+    height: 221px;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 21px;
+    box-shadow: 0px 0px 5px 3px aliceblue;
+}
+
+section > div > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section > div > div > h3 {
+    max-width: 760px;
+    max-height: 76px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 2em;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+section > div > div > p {
+    max-width: 760px;
+    max-height: 90px;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 0.8em;
+    color: gray;
+    text-shadow: 0px 0px 3px white;
+}
+
+/*section-footer-pages.css*/
+
+/*footer.css*/

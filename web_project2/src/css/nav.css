@@ -1,0 +1,94 @@
+/*页眉置顶*/
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    text-align: center;
+    background: rgba(255, 237, 170, 0.29);
+    box-shadow: 0px 2px 5px #888888;
+    border-radius: 7px;
+}
+
+/*使导航栏呈inline-block*/
+nav > * {
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+nav > div > a {
+    font-family: Helvetica, sans-serif;
+    font-size: 3.6em;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+/*导航条目hover样式变化*/
+nav > div:not(.dropdown) > a:hover {
+    color: #ff84f7;
+}
+
+/*当前导航条目高亮*/
+#this-page > a {
+    color: orangered;
+}
+
+/*下拉菜单*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.menu {
+    cursor: default;
+    font-family: Helvetica, sans-serif;
+    font-size: 3.2em;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #ff8c11;
+    background-color: navajowhite;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(110, 110, 110, 0.36);
+}
+
+.menu:hover {
+    background-color: rgba(255, 222, 173, 0.42);
+}
+
+.drop-content {
+    position: absolute;
+    display: none;
+
+}
+
+.drop-content > a {
+    text-align: start;
+    vertical-align: baseline;
+    display: block;
+    min-width: 230px;
+    background-color: rgba(255, 222, 173, 0.55);
+    box-shadow: 0px 0px 10px 5px rgba(109, 109, 109, 0.36);
+    border-radius: 10px;
+    margin-top: 15px;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.drop-content > a:hover {
+    color: aquamarine;
+    background-color: rgba(255, 222, 173, 0.34);
+}
+
+.drop-content > a > img {
+    width: 1.5em;
+    vertical-align: middle;
+}
+
+.dropdown:hover > .drop-content {
+    display: block;
+}

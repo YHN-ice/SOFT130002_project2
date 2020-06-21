@@ -1,0 +1,113 @@
+/*nav.css*/
+
+body {
+    background-image: url("../../images/background/my-pics-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkslategrey;
+    background-position: center;
+}
+
+section > header {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 3em;
+    color: rgba(169, 169, 169, 0.58);
+    margin-bottom: 10%;
+    text-shadow: 0px 0px 3px navy;
+    position: static;
+}
+
+section > header::first-letter {
+    font-size: 3.2em;
+    font-weight: normal;
+}
+
+section {
+    margin: 9%;
+    padding: 7%;
+
+    border-radius: 120px;
+
+    background-color: rgba(173, 216, 230, 0.64);
+
+    box-shadow: 0px 0px 21px 15px aliceblue;
+}
+
+section > div {
+    margin-bottom: 9%;
+    padding: 3%;
+
+    background-color: rgba(211, 224, 224, 0.63);
+
+    border-radius: 54px;
+    box-shadow: 0px 0px 9px 5px rgba(95, 158, 160, 0.64);
+}
+
+section > div > a > img {
+    margin-right: 21px;
+    width: 221px;
+    height: 221px;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 21px;
+    box-shadow: 0px 0px 5px 3px aliceblue;
+
+
+}
+
+section > div > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section > div > div > h3 {
+    max-width: 760px;
+    max-height: 76px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 2em;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+section > div > div > p {
+    max-width: 760px;
+    max-height: 90px;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 0.8em;
+    color: coral;
+}
+
+h3 > a {
+    text-decoration: none;
+}
+
+.modify, .delete {
+    display: inline-block;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    outline: none;
+    border: none;
+    background-color: rgba(95, 158, 160, 0.54);
+    vertical-align: middle;
+    cursor: pointer;
+
+    font-family: Helvetica, SansSerif, sans-serif;
+    font-size: 0.9em;
+    font-weight: lighter;
+    color: darkcyan;
+
+    border-radius: 12px;
+}
+
+/*section-footer-pages.css*/
+
+/*footer.css*/

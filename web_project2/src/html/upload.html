@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/nav.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../css/upload.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css" media="all">
+    <script src="../js/upload.js"></script>
+    <title>上传页</title>
+</head>
+<body>
+<header>
+    <nav>
+        <div id=homepage><a href="homepage.html">首页</a></div>
+        <div id=browser><a href="browser.html">浏览页</a></div>
+        <div id=search><a href="search.html">搜索页</a></div>
+        <div class="dropdown">
+
+            <div class="menu">个人中心</div>
+
+            <div class="drop-content">
+                <a href="upload.html"><img src="../../images/icons/upload.png"/>上传</a>
+                <a href="my-pics.html"><img src="../../images/icons/my-pics.png"/>我的照片</a>
+                <a href="my-collection.html"><img src="../../images/icons/my-collection.png"/>我的收藏</a>
+                <a href="login.html"><img src="../../images/icons/log-in.png"/>登出</a>
+            </div>
+
+        </div>
+    </nav>
+</header>
+<form method="get" action="my-pics.html">
+    <img src="" alt="图片未上传" id="preview" class="text"/>
+
+    <input type="file" name="file" onchange="previewFile(this)" class="text">
+    <div><span class="text">图片标题</span><input type="text" name="title"></div>
+    <p class="text">图片描述</p>
+    <textarea></textarea>
+    <div><span class="text">拍摄国家</span><input type="text" name="country"></div>
+    <div><span class="text">拍摄城市</span><input type="text" name="city"></div>
+    <input type="submit" value="submit" class="text" onclick="alert('not available')">
+
+</form>
+<footer>
+    © 2020 fdu19ss沪·证书·备 19302010042·联系我们:<img src="../../images/icons/wechat2DCode.JPG"/>19302010042@fudan.edu.cn·举报
+</footer>
+</body>
+</html>

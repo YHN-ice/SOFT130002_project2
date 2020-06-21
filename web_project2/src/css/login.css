@@ -1,0 +1,140 @@
+body {
+    background-image: url("../../images/background/index-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkslategrey;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    margin-top: 6%;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 3em;
+    color: white;
+}
+
+form {
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+form > div {
+    text-align: end;
+    margin-right: 39%;
+
+    color: white;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+form > div:not(#last) {
+    margin-bottom: 5%;
+}
+
+form > div > input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+    width: 27%;
+
+    vertical-align: middle;
+    height: 2.1em;
+
+    color: white;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 0.8em;
+
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px 3px #bfbfbf;
+
+}
+
+form > input {
+    margin-top: 3vw;
+    position: relative;
+    left: 50%;
+
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+    color: white;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+
+    box-shadow: 0px 0px 3px 3px #bfbfbf;
+    border-radius: 3px;
+
+    cursor: pointer;
+}
+
+body > div {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 21%;
+
+    color: white;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+
+
+    color: white;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 0.9em;
+
+    box-shadow: 0px 0px 3px 3px #bfbfbf;
+    border-radius: 3px;
+
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h5{
+    text-align: center;
+    color: orangered;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+footer {
+    opacity: 0.81;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.7em;
+    font-weight: lighter;
+    box-shadow: 0px 0px 10px 5px rgba(0, 255, 255, 0.4);
+    border-radius: 10px;
+
+    margin-bottom: 3vw;
+    width: 99%;
+}
+
+footer > img {
+    width: 1em;
+    height: 1em;
+    vertical-align: baseline;
+}

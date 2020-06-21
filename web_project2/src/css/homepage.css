@@ -1,0 +1,71 @@
+/*nav.css*/
+body {
+    background-image: url("../../images/background/homepage-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkslategrey;
+    background-position: center;
+}
+
+#show-zone {
+    margin-left: 50%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 70px;
+    grid-column-gap: 20px;
+}
+
+#show-zone > div {
+    border-radius: 10%;
+    background: rgba(244, 154, 146, 0.1);
+    width: 210px;
+    box-shadow: 0px 0px 15px 12px rgba(192, 192, 192, 0.56);
+}
+
+#show-zone > div > a > img {
+    display: block;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    margin: 0 auto;
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+}
+
+#show-zone > div > p {
+    color: rgba(186, 93, 58, 0.44);
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#show-zone > div > h3 {
+    color: rgba(134, 120, 87, 0.99);
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#accessibility-icons {
+    position: fixed;
+    top: 60%;
+    left: 96%;
+}
+
+#accessibility-icons > button {
+    background: transparent;
+    border: transparent;
+    outline: none;
+}
+
+#accessibility-icons > button img {
+    display: block;
+    width: 50px;
+    cursor: pointer;
+}
+
+/*footer.css*/

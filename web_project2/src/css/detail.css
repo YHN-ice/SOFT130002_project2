@@ -1,0 +1,92 @@
+/*nav.css*/
+body {
+    background-color: rgba(0, 255, 255, 0.09);
+}
+
+section {
+    margin: 3vw 10vw 10vw;
+    padding: 3vw;
+}
+
+#title {
+    text-align: center;
+    margin: 3vw;
+    font-family: Helvetica, san-serif;
+    font-size: 3em;
+    font-weight: normal;
+    color: darkslateblue;
+}
+
+#photographer {
+    vertical-align: sub;
+    font-family: Helvetica, san-serif;
+    font-size: 0.3em;
+    font-weight: lighter;
+}
+
+#trunk > div {
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
+#photo {
+    box-shadow: 0px 0px 3px 6px rgba(191, 191, 191, 0.4);
+    max-width: 760px;
+}
+
+#like {
+    outline: none;
+    border: none;
+    background: yellow;
+    box-shadow: 0px 0px 3px 3px #bfbfbf;
+    border-radius: 1vw;
+    margin: 1vw;
+
+    cursor: pointer;
+}
+
+#like > a{
+    text-decoration: none;
+    color: gray;
+}
+
+table {
+    margin: 0 auto;
+}
+
+caption {
+    font-family: Helvetica, san-serif;
+    font-weight: lighter;
+    color: lightblue;
+}
+
+td:nth-of-type(1) {
+    text-transform: uppercase;
+    font-family: Helvetica, san-serif;
+    font-size: 2.4em;
+    font-weight: lighter;
+    color: #898989;
+}
+
+td:nth-of-type(2) {
+    font-family: Helvetica, san-serif;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+
+#complete-description {
+    font-family: Helvetica, san-serif;
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: darkgrey;
+    text-indent: 2em;
+}
+
+#complete-description::first-letter {
+    font-size: 3em;
+}
+
+/*section-footer-pages.css*/
+
+/*footer.css*/

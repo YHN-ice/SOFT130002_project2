@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/nav.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../css/browser.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../css/section-footer-pages.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css" media="all">
+    <script type="text/javascript" src="../js/cities.js"></script>
+    <script type="text/javascript" src="../js/selector-onchange.js"></script>
+    <title>浏览页</title>
+</head>
+<body>
+<header>
+    <nav>
+        <div id=homepage><a href="homepage.html">首页</a></div>
+        <div id=this-page><a href="browser.html">浏览页</a></div>
+        <div id=search><a href="search.html">搜索页</a></div>
+        <div class="dropdown">
+
+            <div class="menu">个人中心</div>
+
+            <div class="drop-content">
+                <a href="upload.html"><img src="../../images/icons/upload.png"/>上传</a>
+                <a href="my-pics.html"><img src="../../images/icons/my-pics.png"/>我的照片</a>
+                <a href="my-collection.html"><img src="../../images/icons/my-collection.png"/>我的收藏</a>
+                <a href="login.html"><img src="../../images/icons/log-in.png"/>登出</a>
+            </div>
+
+        </div>
+    </nav>
+</header>
+<aside>
+    <div id="popular-countries">
+        <div>热门国家快速浏览</div>
+        <ul>
+            <li><a href="#" onclick="alert('not available')">Iceland</a></li>
+            <li><a href="#" onclick="alert('not available')">Israel</a></li>
+            <li><a href="#" onclick="alert('not available')">Nepal</a></li>
+            <li><a href="#" onclick="alert('not available')">Norway</a></li>
+            <li><a href="#" onclick="alert('not available')">Sweden</a></li>
+            <li><a href="#" onclick="alert('not available')">Namibia</a></li>
+        </ul>
+    </div>
+
+    <div id="popular-cities">
+        <div>热门城市快速浏览</div>
+        <ul>
+            <li><a href="#" onclick="alert('not available')">Beijing</a></li>
+            <li><a href="#" onclick="alert('not available')">New York</a></li>
+            <li><a href="#" onclick="alert('not available')">California</a></li>
+            <li><a href="#" onclick="alert('not available')">Florida</a></li>
+            <li><a href="#" onclick="alert('not available')">Naples</a></li>
+            <li><a href="#" onclick="alert('not available')">Reykjavík</a></li>
+        </ul>
+    </div>
+
+    <div id="hot-content">
+        <div>热门内容快速浏览</div>
+        <ul>
+            <li><a href="#" onclick="alert('not available')">Scenery</a></li>
+            <li><a href="#" onclick="alert('not available')">Cosmos</a></li>
+            <li><a href="#" onclick="alert('not available')">Kids</a></li>
+            <li><a href="#" onclick="alert('not available')">Buildings</a></li>
+            <li><a href="#" onclick="alert('not available')">Portrait</a></li>
+        </ul>
+    </div>
+</aside>
+
+<div id="filter">
+    <form method="get" action="#">
+        <select name="content">
+            <option value="default">Filter by Content</option>
+            <option value="Scenery">Scenery</option>
+            <option value="Cosmos">Cosmos</option>
+            <option value="Buildings">Buildings</option>
+            <option value="Portrait">Portrait</option>
+        </select>
+        <select name="countries" onchange="changeCities(this, this.form.cities)">
+            <option value="default">Filter by Country</option>
+            <option value="China">China</option>
+            <option value="Japan">Japan</option>
+            <option value="Italy">Italy</option>
+            <option value="America">America</option>
+        </select>
+        <select name="cities">
+            <option value="default">Filter by City</option>
+        </select>
+        <input type="submit" value="Filter" onclick="alert('无法筛选')"/>
+    </form>
+</div>
+
+<section>
+    <div id="show-zone">
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/9496787858.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/9493997865.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/9494464567.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/9494470337.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/9494472443.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/9494475161.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/9494282329.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/9495571869.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/9495574327.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/9496560520.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/9496792166.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/9496799098.jpg"/></a>
+
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/8730408907.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/8152016381.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/8152020963.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/8152043422.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/8152045688.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/8152045872.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/8152048712.jpg"/></a>
+        <a href="detail.html"><img src="../../images/travel-images/normal/medium/8645912379.jpg"/></a>
+    </div>
+
+    <div id="pages">
+        <a href="#" id="last page" onclick="alert('unable to turn')"><</a>
+        <a href="#" id="current page" onclick="alert('unable to turn')">1</a>
+        <a href="#" onclick="alert('unable to turn')">2</a>
+        <a href="#" onclick="alert('unable to turn')">3</a>
+        <a href="#" onclick="alert('unable to turn')">4</a>
+        <a href="#" onclick="alert('unable to turn')">5</a>
+        <a href="#" onclick="alert('unable to turn')">6</a>
+        <span>...</span>
+        <a href="#" onclick="alert('unable to turn')">9</a>
+        <a href="#" id="next page" onclick="alert('unable to turn')">></a>
+    </div>
+</section>
+<footer>
+    © 2020 fdu19ss沪·证书·备 19302010042·联系我们:<img src="../../images/icons/wechat2DCode.JPG"/>19302010042@fudan.edu.cn·举报
+</footer>
+</body>
+</html>

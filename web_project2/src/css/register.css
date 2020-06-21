@@ -1,0 +1,11 @@
+body {
+    background-image: url("../../images/background/register-background.png");
+}
+
+form {
+    margin-bottom: 18%;
+}
+
+#submit-button:disabled {
+    cursor: default;
+}
